@@ -1,0 +1,53 @@
+.container {
+  margin: -1.6875rem auto 0;
+  max-width: 752px;
+  padding: 0 1rem;
+}
+
+.inputSection {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.inputSection div {
+  max-width: 5.625rem;
+  width: 100%;
+}
+
+.inputSection div button img {
+  margin-left: 0.5rem;
+}
+
+.list {
+  margin-top: 4rem;
+}
+
+.listCount {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.listCount p {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.__total {
+  color: var(--product-blue);
+}
+
+.__completed {
+  color: var(--product-purple);
+}
+
+.listCount span {
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-left: 0.5rem;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 50%;
+  color: var(--base-gray-200);
+  background-color: var(--base-gray-400);
+}
